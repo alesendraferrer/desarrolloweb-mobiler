@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.contenedor-header {
+    display: flex;
+    justify-content:space-evenly;
+    margin: 20px;
+}
+
+.caja-header-logo {
+    padding: 20px;
+    text-align: left;
+}
+
+.header nav {
+    text-align: right;
+    text-decoration: none;
+    padding: 30px;
+}
+
+.nav-principal-a {
+    text-decoration: none;
+    color: #727276;
+    font-family: berlin sans fb;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
