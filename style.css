@@ -25,6 +25,13 @@
     font-weight: 500;
 }
 
+.h2-footer {
+    color: #FFE70A;
+    padding-bottom: 30px;
+    font-weight: 500;
+    font-size: 26px;
+}
+
 .section-publicaciones {
     margin: 40px;
     margin-bottom: 100px;
@@ -103,7 +110,7 @@ a {
 .pos-footer {
     background-color: #9300F5;
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 10px;
