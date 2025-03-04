@@ -12,6 +12,30 @@ ul li {
     display: inline-block;
 }
 
+.section-necesitas-muebles {
+    background-color: #C875FF;
+    color: #FFFFFF;
+    font-weight: 500;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 60px;
+}
+
+.h2-necesitas-muebles {
+    color: #FFE70A;
+    padding-bottom: 30px;
+}
+
+.section-publicaciones {
+    margin: 40px;
+}
+
+.h1-home {
+    color: #808080;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
 .contenedor-header {
     display: flex;
     justify-content:space-evenly;
@@ -51,4 +75,8 @@ a {
     background-color: #FFE70A;
     border-color: #FFE70A;
     color: black;
+}
+
+.categorias {
+    width: 50px;
 }
