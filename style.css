@@ -42,3 +42,13 @@ a {
     text-decoration: none;
 }
 
+.btn.btn-primary{
+    background-color: #9300F5;
+    border-color: #9300F5;
+}
+
+.btn.btn-secondary {
+    background-color: #FFE70A;
+    border-color: #FFE70A;
+    color: black;
+}
