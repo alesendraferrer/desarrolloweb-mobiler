@@ -43,6 +43,12 @@
     margin-bottom: 80px;
 }
 
+.h2-categorias {
+    color: #808080;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
 .contenedor-header {
     display: flex;
     justify-content:space-evenly;
@@ -85,7 +91,16 @@ a {
 }
 
 .categorias {
-    width: 50px;
+    width: 60px;
+}
+
+.categorias-2 {
+    width: 120px;
+    margin-bottom: 140px;
+}
+
+.col {
+    gap: 20px;
 }
 
 .section-footer {
