@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    text-align: right;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+
 .btn.btn-outline-success {
     background-color: #9300F5;
     border-color: #9300F5;
@@ -115,6 +121,11 @@ a {
     margin-bottom: 140px;
 }
 
+.categorias-3 {
+    width: 30px;
+    margin: 10px;
+}
+
 .col {
     gap: 20px;
 }
@@ -126,6 +137,10 @@ a {
     padding-bottom: 80px;
     padding-left: 60px;
     padding-right: 60px;
+}
+
+.ul-contacto {
+    list-style: none;
 }
 
 .ul-footer {
@@ -153,6 +168,11 @@ a {
     padding-left: 200px;
     padding-right: 200px;
     padding-bottom: 100px;
+}
+
+.mapa-datos {
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .campos-formulario-de-contacto {
