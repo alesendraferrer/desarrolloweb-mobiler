@@ -41,6 +41,7 @@
 .h2-contacto {
     color: #FFE70A;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .section-publicaciones {
@@ -52,10 +53,12 @@
     color: #808080;
     margin-top: 100px;
     margin-bottom: 80px;
+    text-align: center;
 }
 
 .h1-contacto {
     color: #9301F5;
+    text-align: center;
 }
 
 .contenedor-header {
@@ -97,6 +100,10 @@ a {
     background-color: #FFE70A;
     border-color: #FFE70A;
     color: black;
+}
+
+.section-categorias {
+    text-align: center;
 }
 
 .categorias {
@@ -149,5 +156,10 @@ a {
 }
 
 .campos-formulario-de-contacto {
-    padding-top: 30px;
+    padding-top: 40px;
+}
+
+.boton-formulario-de-contacto {
+    text-align: center;
+    padding-top: 40px;
 }
