@@ -55,6 +55,10 @@
     margin-bottom: 100px;
 }
 
+.card-body {
+    text-align: center;
+}
+
 .h1-home {
     color: #808080;
     margin-top: 100px;
@@ -64,6 +68,7 @@
 
 .h1-contacto {
     color: #9301F5;
+    margin-top: 40px;
     text-align: center;
 }
 
@@ -100,12 +105,18 @@ a {
 .btn.btn-primary{
     background-color: #9300F5;
     border-color: #9300F5;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .btn.btn-secondary {
     background-color: #FFE70A;
     border-color: #FFE70A;
     color: black;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .section-categorias {
@@ -171,7 +182,7 @@ a {
 }
 
 .mapa-datos {
-    padding-top: 80px;
+    padding-top: 100px;
     padding-bottom: 80px;
 }
 
