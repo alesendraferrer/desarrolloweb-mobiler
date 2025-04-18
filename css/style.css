@@ -11,14 +11,14 @@
 }
 
 .btn.btn-outline-success {
-    background-color: #9300F5;
-    border-color: #9300F5;
-    color: #FFFFFF;
+    background-color: #9300f5;
+    border-color: #9300f5;
+    color: #ffffff;
 }
 
 .section-necesitas-muebles {
-    background-color: #C875FF;
-    color: #FFFFFF;
+    background-color: #c875ff;
+    color: #ffffff;
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 60px;
@@ -26,13 +26,13 @@
 }
 
 .h2-necesitas-muebles {
-    color: #FFE70A;
+    color: #ffe70a;
     padding-bottom: 30px;
     font-weight: 500;
 }
 
 .h2-footer {
-    color: #FFE70A;
+    color: #ffe70a;
     padding-bottom: 30px;
     font-weight: 500;
     font-size: 26px;
@@ -45,7 +45,7 @@
 }
 
 .h2-contacto {
-    color: #FFE70A;
+    color: #ffe70a;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -67,14 +67,14 @@
 }
 
 .h1-contacto {
-    color: #9301F5;
+    color: #9301f5;
     margin-top: 40px;
     text-align: center;
 }
 
 .contenedor-header {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     margin: 20px;
 }
 
@@ -102,17 +102,17 @@ a {
     text-decoration: none;
 }
 
-.btn.btn-primary{
-    background-color: #9300F5;
-    border-color: #9300F5;
+.btn.btn-primary {
+    background-color: #9300f5;
+    border-color: #9300f5;
     margin: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 .btn.btn-secondary {
-    background-color: #FFE70A;
-    border-color: #FFE70A;
+    background-color: #ffe70a;
+    border-color: #ffe70a;
     color: black;
     margin: 10px;
     padding-top: 10px;
@@ -142,8 +142,8 @@ a {
 }
 
 .section-footer {
-    background-color: #C875FF;
-    color: #FFFFFF;
+    background-color: #c875ff;
+    color: #ffffff;
     padding-top: 80px;
     padding-bottom: 80px;
     padding-left: 60px;
@@ -156,34 +156,34 @@ a {
 
 .ul-footer {
     list-style: none;
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 18px;
 }
 
 .a-footer {
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .pos-footer {
-    background-color: #9300F5;
-    color: #FFFFFF;
+    background-color: #9300f5;
+    color: #ffffff;
     font-size: 14px;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 10px;
 }
 
+
 .formulario-de-contacto {
     background-color: #fefceb;
     padding-top: 80px;
-    padding-left: 200px;
-    padding-right: 200px;
     padding-bottom: 100px;
+    text-align: center;
 }
 
 .mapa-datos {
     padding-top: 100px;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 }
 
 .campos-formulario-de-contacto {
@@ -197,4 +197,90 @@ a {
 
 .btn-cargar-mas {
     padding-top: 80px;
+}
+
+/* Tablets (≥ 768px y < 992px) */
+@media (max-width: 991.98px) {
+
+    .section-necesitas-muebles,
+    .section-footer {
+        padding: 40px;
+    }
+
+    .contenedor-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-nav.me-auto.mb-2.mb-lg-0 {
+        text-align: center;
+    }
+
+    .formulario-de-contacto,
+    .mapa-datos {
+        padding: 40px 20px;
+    }
+
+    iframe {
+        width: 100% !important;
+        height: 400px;
+    }
+}
+
+/* Dispositivos móviles (≤ 767px) */
+@media (max-width: 767.98px) {
+
+    .section-necesitas-muebles,
+    .section-footer,
+    .formulario-de-contacto,
+    .mapa-datos {
+        padding: 20px;
+    }
+
+    .h1-contacto,
+    .h2-contacto,
+    .h2-footer {
+        font-size: 22px;
+    }
+
+    .ul-footer,
+    .ul-contacto {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .navbar-nav.me-auto.mb-2.mb-lg-0 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .categorias,
+    .categorias-2,
+    .categorias-3 {
+        width: 50px;
+    }
+
+    .col-8,
+    .col-4,
+    .col-3,
+    .col-5 {
+        width: 100% !important;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 100% !important;
+        height: 300px;
+    }
+
+    .d-grid.gap-2.col-4.mx-auto {
+        width: 100% !important;
+    }
 }

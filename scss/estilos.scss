@@ -1,0 +1,300 @@
+// === Variables ===
+$primary-purple: #9300f5;
+$secondary-yellow: #ffe70a;
+$light-purple: #c875ff;
+$gray: #808080;
+$text-light: #ffffff;
+$footer-bg: $primary-purple;
+
+// === Mixins ===
+@mixin responsive-padding($value) {
+    padding: $value;
+}
+
+@mixin section-padding($top, $bottom, $left: 60px, $right: 60px) {
+    padding: $top $right $bottom $left;
+}
+
+// === Reset ===
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// === General ===
+a {
+    text-decoration: none;
+}
+
+// === Header ===
+.header {
+    nav {
+        text-align: right;
+        text-decoration: none;
+        padding: 30px;
+    }
+}
+
+.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    text-align: right;
+    align-items: flex-end;
+    align-content: flex-end;
+
+    @media (max-width: 991.98px) {
+        text-align: center;
+    }
+
+    @media (max-width: 767.98px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+// === Botones ===
+.btn {
+    &.btn-outline-success {
+        background-color: $primary-purple;
+        border-color: $primary-purple;
+        color: $text-light;
+    }
+
+    &.btn-primary {
+        background-color: $primary-purple;
+        border-color: $primary-purple;
+        margin: 10px;
+        padding: 10px 0;
+    }
+
+    &.btn-secondary {
+        background-color: $secondary-yellow;
+        border-color: $secondary-yellow;
+        color: black;
+        margin: 10px;
+        padding: 10px 0;
+    }
+
+    @media (max-width: 767.98px) {
+        width: 100%;
+    }
+}
+
+// === Secciones ===
+.section-necesitas-muebles {
+    background-color: $light-purple;
+    color: $text-light;
+    @include section-padding(100px, 100px);
+
+    @media (max-width: 991.98px) {
+        @include responsive-padding(40px);
+    }
+
+    @media (max-width: 767.98px) {
+        @include responsive-padding(20px);
+    }
+}
+
+.section-categorias {
+    text-align: center;
+}
+
+.section-publicaciones {
+    margin: 40px;
+    margin-bottom: 100px;
+}
+
+.section-footer {
+    background-color: $light-purple;
+    color: $text-light;
+    @include section-padding(80px, 80px);
+
+    @media (max-width: 991.98px) {
+        @include responsive-padding(40px);
+    }
+
+    @media (max-width: 767.98px) {
+        @include responsive-padding(20px);
+    }
+}
+
+// === Tipografía ===
+.h1-home,
+.h2-categorias,
+.h2-necesitas-muebles,
+.h2-footer,
+.h2-contacto,
+.h1-contacto {
+
+    &.h1-home,
+    &.h2-categorias {
+        color: $gray;
+        margin-top: 100px;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+
+    &.h2-necesitas-muebles,
+    &.h2-footer,
+    &.h2-contacto {
+        color: $secondary-yellow;
+        padding-bottom: 30px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    &.h2-footer {
+        font-size: 26px;
+
+        @media (max-width: 767.98px) {
+            font-size: 22px;
+        }
+    }
+
+    &.h1-contacto {
+        color: $primary-purple;
+        margin-top: 40px;
+        text-align: center;
+
+        @media (max-width: 767.98px) {
+            font-size: 22px;
+        }
+    }
+}
+
+// === Cards ===
+.card-body {
+    text-align: center;
+}
+
+.categorias {
+    width: 60px;
+
+    &-2 {
+        width: 120px;
+        margin-bottom: 140px;
+
+        @media (max-width: 767.98px) {
+            width: 50px;
+        }
+    }
+
+    &-3 {
+        width: 30px;
+        margin: 10px;
+
+        @media (max-width: 767.98px) {
+            width: 50px;
+        }
+    }
+}
+
+.col {
+    gap: 20px;
+}
+
+// === Footer ===
+.ul-footer,
+.ul-contacto {
+    list-style: none;
+
+    &.ul-footer {
+        color: $text-light;
+        font-size: 18px;
+
+        @media (max-width: 767.98px) {
+            padding-left: 0;
+            text-align: center;
+        }
+    }
+
+    &.ul-contacto {
+        @media (max-width: 767.98px) {
+            padding-left: 0;
+            text-align: center;
+        }
+    }
+}
+
+.a-footer {
+    color: $text-light;
+}
+
+.pos-footer {
+    background-color: $footer-bg;
+    color: $text-light;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0 10px;
+}
+
+// === Formularios y otros ===
+.formulario-de-contacto {
+    background-color: #fefceb;
+    padding: 80px 0 100px;
+    text-align: center;
+
+    @media (max-width: 991.98px) {
+        padding: 40px 20px;
+    }
+
+    @media (max-width: 767.98px) {
+        padding: 20px;
+    }
+}
+
+.campos-formulario-de-contacto,
+.boton-formulario-de-contacto {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.mapa-datos {
+    padding: 100px 0;
+
+    @media (max-width: 991.98px) {
+        padding: 40px 20px;
+    }
+
+    @media (max-width: 767.98px) {
+        padding: 20px;
+    }
+}
+
+.btn-cargar-mas {
+    padding-top: 80px;
+}
+
+// === Iframe responsive ===
+iframe {
+    @media (max-width: 991.98px) {
+        width: 100% !important;
+        height: 400px;
+    }
+
+    @media (max-width: 767.98px) {
+        width: 100% !important;
+        height: 300px;
+    }
+}
+
+// === Layout helpers ===
+.d-grid.gap-2.col-4.mx-auto {
+    @media (max-width: 767.98px) {
+        width: 100% !important;
+    }
+}
+
+.row {
+    @media (max-width: 767.98px) {
+        flex-direction: column;
+    }
+}
+
+.col-8,
+.col-4,
+.col-3,
+.col-5 {
+    @media (max-width: 767.98px) {
+        width: 100% !important;
+    }
+}
