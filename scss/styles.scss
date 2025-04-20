@@ -1,0 +1,148 @@
+
+// Variables
+$primary: #9300f5;
+$secondary: #ffe70a;
+$accent: #c875ff;
+$light-bg: #FFFACE;
+$lavender-bg: #F4E3FF;
+$gray: #808080;
+$text-light: #ffffff;
+
+@import 'variables';
+@import 'mixins';
+@import 'reset';
+@import 'base';
+@import 'buttons';
+// @import 'header';
+// @import 'footer';
+// @import 'forms';
+// etc.
+
+// Mixin para padding responsivo
+@mixin responsive-padding($padding...) {
+  padding: $padding;
+}
+
+// Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Estilos base
+a {
+  text-decoration: none;
+}
+
+// Botones
+.btn {
+  &.btn-outline-success {
+    background-color: $primary;
+    border-color: $primary;
+    color: $text-light;
+  }
+
+  &.btn-primary {
+    background-color: $primary;
+    border-color: $primary;
+    margin: 10px;
+    padding: 10px 0;
+  }
+
+  &.btn-secondary {
+    background-color: $secondary;
+    border-color: $secondary;
+    color: black;
+    margin: 10px;
+    padding: 10px 0;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  nav {
+    text-align: right;
+    text-decoration: none;
+    padding: 30px;
+  }
+
+  .navbar-nav.me-auto.mb-2.mb-lg-0 {
+    text-align: right;
+    align-items: flex-end;
+    align-content: flex-end;
+
+    @media (max-width: 991.98px) {
+      text-align: center;
+    }
+
+    @media (max-width: 767.98px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+
+.section-footer {
+  background-color: $accent;
+  color: $text-light;
+  padding: 80px 60px;
+
+  @media (max-width: 991.98px) {
+    padding: 40px;
+  }
+
+  @media (max-width: 767.98px) {
+    padding: 20px;
+  }
+}
+
+.ul-footer,
+.ul-contacto {
+  list-style: none;
+  color: $text-light;
+  font-size: 18px;
+  padding-left: 0;
+  text-align: center;
+}
+
+.a-footer {
+  color: $text-light;
+}
+
+.pos-footer {
+  background-color: $primary;
+  color: $text-light;
+  font-size: 14px;
+  text-align: center;
+  padding: 30px 0 10px;
+}
+
+.section-necesitas-muebles {
+  background-color: $accent;
+  color: $text-light;
+  padding: 100px 60px;
+
+  @media (max-width: 991.98px) {
+    padding: 40px;
+  }
+
+  @media (max-width: 767.98px) {
+    padding: 20px;
+  }
+}
+
+.section-categorias {
+  text-align: center;
+}
+
+.section-publicaciones {
+  margin: 40px;
+  margin-bottom: 100px;
+}
+
+
+
