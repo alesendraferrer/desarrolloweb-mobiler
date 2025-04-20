@@ -61,56 +61,63 @@
                         <ul class="ul-contacto">
                             <li><img class="categorias-3 img-fluid" src="../imagenes/icono-violeta.png" alt="">Correo
                                 electrónico</li>
-                            <li><img class="categorias-3 img-fluid" src="../imagenes/icono-amarillo.png" alt="">Teléfono</li>
-                            <li><img class="categorias-3 img-fluid" src="../imagenes/icono-violeta.png" alt="">Dirección</li>
-                            <li><img class="categorias-3 img-fluid" src="../imagenes/icono-amarillo.png" alt="">Chat en línea</li>
-                            <li><img class="categorias-3 img-fluid" src="../imagenes/icono-violeta.png" alt="">Mensaje en formulario</li>
+                            <li><img class="categorias-3 img-fluid" src="../imagenes/icono-amarillo.png" alt="">Teléfono
+                            </li>
+                            <li><img class="categorias-3 img-fluid" src="../imagenes/icono-violeta.png" alt="">Dirección
+                            </li>
+                            <li><img class="categorias-3 img-fluid" src="../imagenes/icono-amarillo.png" alt="">Chat en
+                                línea</li>
+                            <li><img class="categorias-3 img-fluid" src="../imagenes/icono-violeta.png" alt="">Mensaje
+                                en formulario</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="formulario-de-contacto container my-5">
-            <h1 class="h1-contacto">FORMULARIO DE CONTACTO</h1>
-            <h2 class="h2-contacto">Envíanos tu consulta</h2>
-            <p>Si tienes alguna duda o necesitas ayuda por parte de nuestro equipo, completa el formulario. A la brevedad te daremos una respuesta</p>
-            <article class="campos-formulario-de-contacto">
-                <div class="row">
-                    <div class="col-12 col-md-6 mb-3">
-                        <label for="nombre" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="nombre" placeholder="Nombre y apellido">
+        <section class="section-formulario container-fluid">
+            <div class="formulario-de-contacto container my-5">
+                <h1 class="h1-contacto">FORMULARIO DE CONTACTO</h1>
+                <h2 class="h2-contacto">Envíanos tu consulta</h2>
+                <p>Si tienes alguna duda o necesitas ayuda por parte de nuestro equipo, completa el formulario. A la
+                    brevedad te daremos una respuesta</p>
+                <article class="campos-formulario-de-contacto">
+                    <div class="row">
+                        <div class="col-12 col-md-6 mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Nombre y apellido">
+                        </div>
+                        <div class="col-12 col-md-6 mb-3">
+                            <label for="correo" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="correo" placeholder="ejemplo@gmail.com">
+                        </div>
                     </div>
-                    <div class="col-12 col-md-6 mb-3">
-                        <label for="correo" class="form-label">Correo electrónico</label>
-                        <input type="email" class="form-control" id="correo" placeholder="ejemplo@gmail.com">
+                    <div class="mb-3">
+                        <label for="asunto" class="form-label">Asunto</label>
+                        <select class="form-select" id="asunto" aria-label="Default select example">
+                            <option selected>¿Cuál es el motivo de tu consulta?</option>
+                            <option value="1">No puedo publicar</option>
+                            <option value="2">Tuve un problema con un usuario</option>
+                            <option value="3">Quisiera más información acerca de los contratos</option>
+                        </select>
                     </div>
-                </div>
-                <div class="mb-3">
-                    <label for="asunto" class="form-label">Asunto</label>
-                    <select class="form-select" id="asunto" aria-label="Default select example">
-                        <option selected>¿Cuál es el motivo de tu consulta?</option>
-                        <option value="1">No puedo publicar</option>
-                        <option value="2">Tuve un problema con un usuario</option>
-                        <option value="3">Quisiera más información acerca de los contratos</option>
-                    </select>
-                </div>
-                <div class="mb-3">
-                    <label for="consulta" class="form-label">Consulta</label>
-                    <textarea class="form-control" id="consulta" rows="3"></textarea>
-                </div>
-                <div class="form-check mb-4">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                    <label class="form-check-label" for="flexCheckChecked">
-                        Enviarme una copia a mi correo.
-                    </label>
-                </div>
-                <div class="boton-formulario-de-contacto">
-                    <div class="d-grid gap-2 col-12 col-md-4 mx-auto">
-                        <button class="btn btn-primary" type="submit">ENVIAR CONSULTA</button>
+                    <div class="mb-3">
+                        <label for="consulta" class="form-label">Consulta</label>
+                        <textarea class="form-control" id="consulta" rows="3"></textarea>
                     </div>
-                </div>
-            </article>
+                    <div class="form-check mb-4">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Enviarme una copia a mi correo.
+                        </label>
+                    </div>
+                    <div class="boton-formulario-de-contacto">
+                        <div class="d-grid gap-2 col-12 col-md-4 mx-auto">
+                            <button class="btn btn-primary" type="submit">ENVIAR CONSULTA</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
         </section>
     </main>
 
@@ -132,9 +139,12 @@
                         <h2 class="h2-footer">ARTÍCULOS</h2>
                         <ul>
                             <li><a class="a-footer" href="#">Sobre la economía colaborativa y el consumo</a></li>
-                            <li><a class="a-footer" href="./paginas/sobre_mobiler.html">Tendencias de la economía circular</a></li>
-                            <li><a class="a-footer" href="./paginas/publicaciones.html">Generación Z: ya no quieren ser propietarios</a></li>
-                            <li><a class="a-footer" href="./paginas/contacto.html">Una moda europea: bienes de segunda mano</a></li>
+                            <li><a class="a-footer" href="./paginas/sobre_mobiler.html">Tendencias de la economía
+                                    circular</a></li>
+                            <li><a class="a-footer" href="./paginas/publicaciones.html">Generación Z: ya no quieren ser
+                                    propietarios</a></li>
+                            <li><a class="a-footer" href="./paginas/contacto.html">Una moda europea: bienes de segunda
+                                    mano</a></li>
                             <li><a class="a-footer" href="./paginas/publicar.html">Decoración infantil low-cost</a></li>
                         </ul>
                     </div>
