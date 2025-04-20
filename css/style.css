@@ -50,9 +50,22 @@
     text-align: center;
 }
 
-.h2-busqueda {
-    color: #000000;
+.h2-publicar {
+    color: #C875FF;
     margin-bottom: 30px;
+    text-align: center;
+}
+
+.h2-busqueda {
+    color: #c875ff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.h3-publicar {
+    color: #C875FF;
+    padding-top: 40px;
+    padding-bottom: 40px;
     text-align: center;
 }
 
@@ -131,6 +144,8 @@ a {
 
 .categorias {
     width: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .categorias-2 {
@@ -202,7 +217,7 @@ a {
     text-align: center;
 }
 
-.campos-formulario-de-busqueda {
+.campos-formulario-de-contacto {
     padding-top: 40px;
     text-align: left;
 }
@@ -249,6 +264,46 @@ a {
 .carousel-inner-resena {
     width: 60%;
     justify-self: center;
+}
+
+.intro-cargar-publicacion {
+    background-color: #FFE70A;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.video-cargar-publicacion {
+    padding-top: 50px;
+}
+
+.formulario-de-carga {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.campos-formulario-de-busqueda {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: left;
+}
+
+.icono-imagen {
+    max-width: 90%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.modalidad-alquiler {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.mb-3.descripcion {
+    padding-top: 40px;
 }
 
 /* Tablets (≥ 768px y < 992px) */

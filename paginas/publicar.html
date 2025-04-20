@@ -29,7 +29,7 @@
                         <li class="nav-item"><a class="nav-link" href="./sobre_mobiler.html">Sobre Mobiler</a></li>
                         <li class="nav-item"><a class="nav-link" href="./publicaciones.html">Publicaciones</a></li>
                         <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Publicar</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">¡PUBLICÁ GRATIS!</a></li>
 
                     </ul>
 
@@ -44,77 +44,129 @@
     </header>
 
     <main>
-        <section class="mapa-datos">
+        <section class="intro-cargar-publicacion">
             <div class="container-md">
-                <div class="row">
-                    <!-- Adaptado a col-12 en mobile, col-md-8 en tablets -->
-                    <div class="col-12 col-md-8 mb-4 mb-md-0">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.2228679869086!2d-68.49969322437215!3d-31.545497702504814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96816ac1bf526eeb%3A0x3918a1dc6faa40b7!2sGorriti%20Sur%201157%2C%20J5411%20Santa%20Luc%C3%ADa%2C%20San%20Juan!5e0!3m2!1ses!2sar!4v1741187946153!5m2!1ses!2sar"
-                            width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-
-                    <!-- Adaptado para mobile y tablet -->
-                    <div class="col-12 col-md-4">
-                        <h2 class="h2-contacto">CANALES DE CONTACTO</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
-                        <ul class="ul-contacto">
-                            <li><img class="categorias-3 img-fluid" src="../imagenes/icono-violeta.png" alt="">Correo
-                                electrónico</li>
-                            <li><img class="categorias-3 img-fluid" src="../imagenes/icono-amarillo.png" alt="">Teléfono
-                            </li>
-                            <li><img class="categorias-3 img-fluid" src="../imagenes/icono-violeta.png" alt="">Dirección
-                            </li>
-                            <li><img class="categorias-3 img-fluid" src="../imagenes/icono-amarillo.png" alt="">Chat en
-                                línea</li>
-                            <li><img class="categorias-3 img-fluid" src="../imagenes/icono-violeta.png" alt="">Mensaje
-                                en formulario</li>
-                        </ul>
-                    </div>
-                </div>
+                <h1 class="h1-contacto">CARGAR PUBLICACIÓN</h1>
+                <h2 class="h2-publicar">¿Qué deseas ofrecer en Mobiler?</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio doloremque saepe excepturi inventore
+                    culpa quisquam cumque est, corporis, vel officiis atque sit neque aliquam totam tenetur dolorem,
+                    facere nisi repudiandae!</p>
             </div>
+            <iframe class="video-cargar-publicacion" width="800" height="450"
+                src="https://www.youtube.com/embed/PpISolyXlhc?si=oXFX2NwvpgfSAxHY" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
         </section>
 
-        <section class="section-formulario container-fluid">
-            <div class="formulario-de-contacto container my-5">
-                <h1 class="h1-contacto">FORMULARIO DE CONTACTO</h1>
-                <h2 class="h2-contacto">Envíanos tu consulta</h2>
-                <p>Si tienes alguna duda o necesitas ayuda por parte de nuestro equipo, completa el formulario. A la
-                    brevedad te daremos una respuesta</p>
-                <article class="campos-formulario-de-contacto">
-                    <div class="row">
-                        <div class="col-12 col-md-6 mb-3">
-                            <label for="nombre" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" id="nombre" placeholder="Nombre y apellido">
-                        </div>
-                        <div class="col-12 col-md-6 mb-3">
-                            <label for="correo" class="form-label">Correo electrónico</label>
-                            <input type="email" class="form-control" id="correo" placeholder="ejemplo@gmail.com">
-                        </div>
+        <section class="section-carga-publicacion container-fluid">
+            <div class="formulario-de-carga container my-5">
+                <h2 class="h2-contacto">NUEVA PUBLICACIÓN</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum cupiditate nihil consequuntur placeat
+                    odio saepe ratione error odit a distinctio, explicabo, unde in maiores aliquam ad sequi reiciendis
+                    esse deserunt.</p>
+                <article class="campos-formulario-de-busqueda">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Tipo de mueble</label>
+                        <input type="text" class="form-control" id="tipo" placeholder="Por ejemplo: cama king size">
                     </div>
                     <div class="mb-3">
-                        <label for="asunto" class="form-label">Asunto</label>
-                        <select class="form-select" id="asunto" aria-label="Default select example">
-                            <option selected>¿Cuál es el motivo de tu consulta?</option>
-                            <option value="1">No puedo publicar</option>
-                            <option value="2">Tuve un problema con un usuario</option>
-                            <option value="3">Quisiera más información acerca de los contratos</option>
+                        <label for="modalidad" class="form-label">Modalidad</label>
+                        <select class="form-select" id="modalidad" aria-label="Default select example">
+                            <option selected>Compraventa</option>
+                            <option value="1">Alquiler</option>
+                            <option value="2">Alquiler con opción a compra</option>
+                            <option value="3">Todas las modalidades</option>
                         </select>
                     </div>
                     <div class="mb-3">
-                        <label for="consulta" class="form-label">Consulta</label>
-                        <textarea class="form-control" id="consulta" rows="3"></textarea>
-                    </div>
-                    <div class="form-check mb-4">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                        <label class="form-check-label" for="flexCheckChecked">
-                            Enviarme una copia a mi correo.
-                        </label>
+                        <label for="categoria" class="form-label">Categoría</label>
+                        <select class="form-select" id="categoria" aria-label="Default select example">
+                            <option selected>Comedor</option>
+                            <option value="1">Cocina</option>
+                            <option value="2">Dormitorio</option>
+                            <option value="3">Decoración</option>
+                        </select>
+                        <div class="modalidad-alquiler">
+                            <h3 class="h3-publicar">1. MODALIDAD ALQUILER</h2>
+                                <p>Elegí la cantidad de cuotas que deseas habilitar</p>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                                    <label class="form-check-label" for="checkDefault">
+                                        1 mes
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="checkChecked">
+                                    <label class="form-check-label" for="checkChecked">
+                                        3 meses
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="checkChecked">
+                                    <label class="form-check-label" for="checkChecked">
+                                        6 meses
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="checkChecked">
+                                    <label class="form-check-label" for="checkChecked">
+                                        9 meses
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="checkChecked">
+                                    <label class="form-check-label" for="checkChecked">
+                                        12 meses
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
+                                    <label class="form-check-label" for="checkChecked">
+                                        + de 12 meses
+                                    </label>
+                                </div>
+                        </div>
+
+                        <div class="container text-center">
+                            <h3 class="h3-publicar">2. CARGA DE IMÁGENES</h2>
+                                <div class="row row-cols-3">
+                                    <div class="col">
+                                        <img class="icono-imagen" src="../imagenes/icono-imagen.png" alt="">
+                                        <img class="icono-imagen" src="../imagenes/icono-imagen.png" alt="">
+                                    </div>
+                                    <div class="col">
+                                        <img class="icono-imagen" src="../imagenes/icono-imagen.png" alt="">
+                                        <img class="icono-imagen" src="../imagenes/icono-imagen.png" alt="">
+                                    </div>
+                                    <div class="col">
+                                        <img class="icono-imagen" src="../imagenes/icono-imagen.png" alt="">
+                                        <img class="icono-imagen" src="../imagenes/icono-imagen.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="boton-formulario-de-contacto">
+                                    <div class="d-grid gap-2 col-12 col-md-4 mx-auto">
+                                        <button class="btn btn-secondary" type="submit">CARGAR MÁS IMÁGENES</button>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="mb-3 descripcion">
+                            <h3 class="h3-publicar">3. DESCRIPCIÓN</h2>
+                                <label for="consulta" class="form-label">Describe lo mejor posible el estado del bien
+                                    que estás cargando en esta publicación:</label>
+                                <textarea class="form-control" id="consulta" rows="3"></textarea>
+                        </div>
+                        <div class="form-check mb-4">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Acepto los términos y condiciones.
+                            </label>
+                        </div>
                     </div>
                     <div class="boton-formulario-de-contacto">
                         <div class="d-grid gap-2 col-12 col-md-4 mx-auto">
-                            <button class="btn btn-primary" type="submit">ENVIAR CONSULTA</button>
+                            <button class="btn btn-primary" type="submit">¡LISTO! VOY A LANZAR MI PUBLICACIÓN</button>
                         </div>
                     </div>
                 </article>
@@ -133,7 +185,7 @@
                             <li><a class="a-footer" href="sobre_mobiler.html">Sobre Mobiler</a></li>
                             <li><a class="a-footer" href="publicaciones.html">Publicaciones</a></li>
                             <li><a class="a-footer" href="contacto.html">Contacto</a></li>
-                            <li><a class="a-footer" href="#">Quiero publicar</a></li>
+                            <li><a class="a-footer" href="#">¡PUBLICÁ GRATIS!</a></li>
                         </ul>
                     </div>
                     <div class="col-12 col-md-5 mb-4">
@@ -176,4 +228,5 @@
         crossorigin="anonymous"></script>
 
 </body>
+
 </html>
