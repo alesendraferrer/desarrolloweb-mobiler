@@ -32,6 +32,12 @@
     font-weight: 500;
 }
 
+.h2-como-funciona {
+    color: #9300f5;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
 .h2-footer {
     color: #ffe70a;
     padding-bottom: 30px;
@@ -43,6 +49,7 @@
     color: #808080;
     margin-top: 100px;
     margin-bottom: 80px;
+    text-align: center;
 }
 
 .h2-contacto {
@@ -70,6 +77,12 @@
     text-align: center;
 }
 
+.h3-como-funciona {
+    color: #C875FF;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 .section-publicaciones {
     margin: 40px;
     margin-bottom: 100px;
@@ -84,9 +97,9 @@
 }
 
 .h1-home {
-    color: #808080;
-    margin-top: 100px;
-    margin-bottom: 80px;
+    color: #ffe70a;
+    margin-top: 60px;
+    margin-bottom: 60px;
     text-align: center;
 }
 
@@ -325,6 +338,20 @@ a {
 
 .mb-3.descripcion {
     padding-top: 40px;
+}
+
+.section-como-funciona-oferente {
+    background-color: #FFFACE;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.section-como-funciona-demandante {
+    background-color: #F4E3FF;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
 }
 
 /* Tablets (≥ 768px y < 992px) */
