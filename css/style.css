@@ -341,15 +341,15 @@ a {
 }
 
 .section-como-funciona-oferente {
-    background-color: #FFFACE;
-    padding-top: 80px;
+    background-color: #F4E3FF;
+    padding-top: 120px;
     padding-bottom: 120px;
     text-align: center;
 }
 
 .section-como-funciona-demandante {
-    background-color: #F4E3FF;
-    padding-top: 120px;
+    background-color: #FFFACE;
+    padding-top: 80px;
     padding-bottom: 120px;
     text-align: center;
 }
